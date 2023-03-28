@@ -1,0 +1,25 @@
+﻿<Window x:Class="ContatoWPFNET.Formulario.Cadastro"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ContatoWPFNET.Formulario"
+        mc:Ignorable="d"
+        Title="Cadastro" Height="450" Width="800">
+    <Grid>
+        <Label Content="Nome" HorizontalAlignment="Left" Margin="34,25,0,0" VerticalAlignment="Top" Height="32" Width="112"/>
+        <Label Content="Data Nascimento" HorizontalAlignment="Left" Margin="34,82,0,0" VerticalAlignment="Top" Height="32" Width="112"/>
+        <Label Content="Sexo" HorizontalAlignment="Left" Margin="34,142,0,0" VerticalAlignment="Top" Height="32" Width="112"/>
+        <Label Content="E-mail" HorizontalAlignment="Left" Margin="34,258,0,0" VerticalAlignment="Top" Height="32" Width="112"/>
+        <Label Content="Telefone" HorizontalAlignment="Left" Margin="34,316,0,0" VerticalAlignment="Top" Height="32" Width="112"/>
+        <TextBox x:Name="txtNome" HorizontalAlignment="Left" Margin="34,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtTelefone" HorizontalAlignment="Left" Margin="34,348,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Margin="34,290,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <DatePicker x:Name="dateDataNascimento" HorizontalAlignment="Left" Margin="34,113,0,0" VerticalAlignment="Top"/>
+        <GroupBox Header="GroupBox" Margin="30,174,650,185" Height="NaN" Width="NaN"/>
+        <RadioButton x:Name="rdSexo1" Content="Masculino" HorizontalAlignment="Left" Margin="34,197,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rdSexo2" Content="Feminino" HorizontalAlignment="Left" Margin="34,217,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnSalvar" Content="Salvar" HorizontalAlignment="Left" Margin="34,384,0,0" VerticalAlignment="Top" Width="112" Click="btnSalvar_Click_1"/>
+
+    </Grid>
+</Window>

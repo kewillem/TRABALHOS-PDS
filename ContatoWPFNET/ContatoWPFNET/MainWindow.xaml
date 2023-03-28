@@ -1,0 +1,13 @@
+﻿<Window x:Class="ContatoWPFNET.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ContatoWPFNET"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btCadastro" Content="Cadastrar Contato" HorizontalAlignment="Left" Margin="130,124,0,0" VerticalAlignment="Top" Height="113" Width="194" Click="btCadastro_Click"/>
+        <Button x:Name="btListar" Content="Listar Contato" HorizontalAlignment="Left" Margin="445,124,0,0" VerticalAlignment="Top" Height="113" Width="193" Click="btListar_Click_1"/>
+    </Grid>
+</Window>
